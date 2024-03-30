@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #6c9acc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #6c9acc;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.add-button, .delete-button, .button {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 8px 16px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 3px; /* Уменьшаем скругление углов */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-button, .delete-button {
+    background-color: #79f190;
+    color: #000000;
+}
+
+.delete-button {
+    background-color: #ff7b87;
+}
+
+.button {
+    background-color: #6c9acc; /* Цвет для кнопки сохранения */
+    color: #fff;
+}
+
+.add-button:hover, .delete-button:hover, .button:hover {
+    background-color: #79f190;
+}
+
+.delete-button:hover {
+    background-color: #ff7b87;
+}
+
+.button:hover {
+    background-color: #6c9acc; /* Цвет при наведении для кнопки сохранения */
+}
+
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #538dcc;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #538dcc;
+    border-radius: 3px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #538dcc;
+    color: #fff;
+}
+
+.back-button:active {
+    background-color: #538dcc;
+    color: #ccc;
+}
